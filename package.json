@@ -15,6 +15,10 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
+    "src/**/*.{js,jsx,json}": [
+      "./node_modules/.bin/eslint --fix",
+      "git add"
+    ],
     "src/**/*.{js,jsx,json,css}": [
       "prettier --write",
       "git add"

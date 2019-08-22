@@ -1,0 +1,87 @@
+{
+    "basics": {
+      "name": "Shilpi Maurya",
+      "label": "Aspiring Front-end Developer",
+      "picture": "https://avatars1.githubusercontent.com/u/47273243?s=460&v=4",
+      "email": "meshilpi94@gmail.com",
+      "phone": "+818041417347",
+      "website": "",
+      "summary": "Eager to explore, experience and learn from the new challenges with the motive of growth",
+      "location": {
+        "city": "Tokyo",
+        "countryCode": "JP"
+      },
+      "profiles": [
+        {
+          "network": "github",
+          "username": "ShilpiMaurya",
+          "url": "https://github.com/ShilpiMaurya"
+        }
+      ]
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "ShilpiMaurya",
+        "url": "https://github.com/ShilpiMaurya"
+      }
+    ]
+  },
+
+  "education": [
+    {
+      "institution": "Codecademy",
+      "area": "Web Development",
+      "studyType": "Online course",
+      "website": "https://www.codecademy.com/learn/paths/web-development",
+      "startDate": "2019-03-01",
+      "endDate": "2019-06-01",
+      "courses": [
+        "Styling a Website - Building Interactive JavaScript Websites - Git - Building Front-endApplications with React"
+      ]
+    },
+    {
+      "institution": "Inderprastha Engineering College,India",
+      "area": "Electrical and Electronics Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2013-08-01",
+      "endDate": "2017-06-01"
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "CSS Animations and Transitions",
+        "Responsive Design",
+        "Javascript",
+        "ESlint and Prettier",
+        "GitFlow",
+        "SEO",
+        "React"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Elementary (N5)"
+    }
+  ],
+  "interests": [
+    { "name": "Front-end development" },
+    {
+      "name": "UX Design"
+    }
+  ],
+  "meta": {
+    "theme": "classy"
+  }
+}

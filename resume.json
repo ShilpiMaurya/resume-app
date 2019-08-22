@@ -19,61 +19,69 @@
         }
       ]
     },
-  
-    "education": [
+    "profiles": [
       {
-        "institution": "Codecademy",
-        "area": "Web Development",
-        "website": "https://www.codecademy.com/learn/paths/web-development",
-        "startDate": "2019-03-01",
-        "endDate": "2019-06-01",
-        "courses": [
-          "Styling a Website - Building Interactive JavaScript Websites - Git - Building Front-endApplications with React"
-        ]
-      },
-      {
-        "institution": "Inderprastha Engineering College,India",
-        "area": "Electrical and Electronics Engineering",
-        "studyType": "Bachelor",
-        "startDate": "2013-08-01",
-        "endDate": "2017-06-01"
+        "network": "github",
+        "username": "ShilpiMaurya",
+        "url": "https://github.com/ShilpiMaurya"
       }
-    ],
-  
-    "skills": [
-      {
-        "name": "Web Development",
-        "keywords": [
-          "HTML",
-          "CSS",
-          "CSS Animations and Transitions",
-          "Responsive Design",
-          "Javascript",
-          "ESlint and Prettier",
-          "GitFlow",
-          "SEO",
-          "React"
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "English",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "Japanese",
-        "fluency": "Elementary Proficiency(N5)"
-      }
-    ],
-    "interests": [
-      {
-        "name": "UX Design"
-      },
-      { "name": "Web Development" }
-    ],
-    "meta": {
-      "theme": "classy"
+    ]
+  },
+
+  "education": [
+    {
+      "institution": "Codecademy",
+      "area": "Web Development",
+      "studyType": "Online course",
+      "website": "https://www.codecademy.com/learn/paths/web-development",
+      "startDate": "2019-03-01",
+      "endDate": "2019-06-01",
+      "courses": [
+        "Styling a Website - Building Interactive JavaScript Websites - Git - Building Front-endApplications with React"
+      ]
+    },
+    {
+      "institution": "Inderprastha Engineering College,India",
+      "area": "Electrical and Electronics Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2013-08-01",
+      "endDate": "2017-06-01"
     }
+  ],
+
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "CSS Animations and Transitions",
+        "Responsive Design",
+        "Javascript",
+        "ESlint and Prettier",
+        "GitFlow",
+        "SEO",
+        "React"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Elementary (N5)"
+    }
+  ],
+  "interests": [
+    { "name": "Front-end development" },
+    {
+      "name": "UX Design"
+    }
+  ],
+  "meta": {
+    "theme": "classy"
+  }
 }
-  

@@ -1,3 +1,11 @@
+# Objective of this project
+- [ ] Create a resume wep-app with following pages: About, Skills, Education, Contact, Download
+- [ ] resume.json would be used as data for the webapp
+- [ ] site will be hosted at domanin `shilpimaurya.com` using github pages
+
+
+# CRA readme
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

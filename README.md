@@ -1,6 +1,6 @@
 # Objective of this project
 - [ ] Create a resume wep-app with following pages: About, Skills, Education, Contact, Download
-- [ ] resume.json would be used as data for the webapp
+- [ ] `resume.json` would be used as data for the webapp
 - [ ] site will be hosted at domanin `shilpimaurya.com` using github pages
 
 

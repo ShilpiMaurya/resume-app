@@ -1,0 +1,72 @@
+.home {
+  padding: 120px 15px 0px 15px;
+  color: #999999;
+  font-family: sans-serif;
+}
+.top-1 {
+  display: flex;
+  flex-direction: row;
+}
+.top-2 {
+  display: flex;
+  flex-direction: row;
+  padding: 70px 0px 0px;
+  margin: 0px 15px;
+}
+.inside-3 {
+  margin-left: 30px;
+  width: 370px;
+  height: 230px;
+  background-color: #f0e5df;
+  background-image: url("../images/profile.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0px 15px;
+}
+
+.inside-4 {
+  padding: 0px 15px;
+  width: 485px;
+  height: 298px;
+  margin-left: 15px;
+}
+.inside-1 {
+  padding: 0px 60px 0px 0px;
+  width: 259;
+  height: 148;
+  line-height: 0.2em;
+  margin-left: 35px;
+}
+.inside-2 {
+  width: 493;
+  height: 148;
+  padding: 0px 0px 0px 60px;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-right: 25px;
+}
+.line {
+  border-left: 1px ridge #999999;
+  height: 148px;
+}
+.bob {
+  padding: 20px 0px 0px;
+}
+.bob-inside {
+  width: 400px;
+  height: 48px;
+  background-color: #ff7632;
+  color: white;
+  font-size: 14px;
+  margin-left: 30px;
+}
+.data {
+  line-height: 0.4em;
+  font-size: 18px;
+  color: #999999;
+}
+.canvas {
+  display: flex;
+  flex-direction: column;
+}

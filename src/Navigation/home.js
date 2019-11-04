@@ -1,11 +1,13 @@
 import React from "react";
 import "./Home.css";
+// import pdf from "../Navigation/pdf";
 function Home(props, ref) {
   return (
     <>
       <div ref={ref} className="home">
         <div className="top-1">
           <div className="inside-1">
+            <div className="logo"></div>
             <h1 style={{ color: "#FF7632", fontSize: "48px" }}>PROFILE</h1>
             <h5
               style={{
@@ -31,6 +33,9 @@ function Home(props, ref) {
             <div className="inside-3"></div>
             <div className="bob">
               <button className="bob-inside">Download Resume</button>
+              {/* <a href={pdf} target={"_blank"}>
+                Resume
+              </a> */}
             </div>
           </div>
           <div className="inside-4">

@@ -7,6 +7,110 @@
   display: flex;
   flex-direction: row;
 }
+@media only screen and (max-width: 866px) {
+  .top-1 {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+  }
+}
+@media only screen and (max-width: 866px) {
+  div.top-2 {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+}
+@media only screen and (max-width: 866px) {
+  div.inside-1 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+}
+@media only screen and (max-width: 866px) {
+  div.inside-2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+}
+@media only screen and (max-width: 866px) {
+  div.inside-4 {
+    padding-top: 50px;
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 866px) {
+  div.canvas {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  hr {
+    width: 65%;
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  div.canvas {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  div.inside-4 {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .home {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  div.top-1 {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  div.inside-3 {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  div.inside-4 {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  button.bob-inside {
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 385px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  div.canvas {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  div.inside-3 {
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  button.bob-inside {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  div.inside-4 {
+    width: 360px;
+  }
+}
 .top-2 {
   display: flex;
   flex-direction: row;
@@ -24,7 +128,14 @@
   background-repeat: no-repeat;
   padding: 0px 15px;
 }
-
+.logo {
+  background-image: url("../images/logo.png");
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .inside-4 {
   padding: 0px 15px;
   width: 485px;
@@ -45,6 +156,11 @@
   font-size: 18px;
   line-height: 1.5em;
   margin-right: 25px;
+}
+@media only screen and (max-width: 866px) {
+  .line {
+    display: none;
+  }
 }
 .line {
   border-left: 1px ridge #999999;

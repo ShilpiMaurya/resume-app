@@ -7,6 +7,14 @@
   background-position: center;
   overflow: hidden;
 }
+@media only screen and (max-width: 550px) {
+  .image {
+    background-image: url("../images/crop.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+}
 .text {
   z-index: 500;
   color: white;

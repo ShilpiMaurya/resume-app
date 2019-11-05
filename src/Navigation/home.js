@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-// import pdf from "../Navigation/pdf";
 function Home(props, ref) {
   return (
     <>
@@ -32,10 +31,17 @@ function Home(props, ref) {
           <div className="canvas">
             <div className="inside-3"></div>
             <div className="bob">
-              <button className="bob-inside">Download Resume</button>
-              {/* <a href={pdf} target={"_blank"}>
-                Resume
-              </a> */}
+              <button className="bob-inside">
+                <a
+                  href={"https://registry.jsonresume.org/ShilpiMaurya"}
+                  target={"_blank"}
+                  style={{
+                    color: "white"
+                  }}
+                >
+                  Download Resume
+                </a>
+              </button>
             </div>
           </div>
           <div className="inside-4">

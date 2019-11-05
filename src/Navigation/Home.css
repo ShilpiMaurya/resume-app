@@ -51,6 +51,7 @@
     margin-left: 0px;
   }
 }
+
 @media only screen and (max-width: 550px) {
   div.canvas {
     width: 400px;
@@ -128,6 +129,7 @@
   background-repeat: no-repeat;
   padding: 0px 15px;
 }
+
 .logo {
   background-image: url("../images/logo.png");
   width: 50px;

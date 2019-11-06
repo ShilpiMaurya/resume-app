@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Contacts from "./Navigation/Contact";
-import Home from "./Navigation/Home";
-import Skills from "./Navigation/Skill";
-import NavBar from "./Navigation/NavBar";
-import Education from "./Navigation/Education";
-import Resume from "./Navigation/Resumedownload";
-import Intro from "./Navigation/Intro";
+import Contacts from "./Navigation/Contact/index";
+import Home from "./Navigation/Home/index";
+import Skills from "./Navigation/Skill/index";
+import NavBar from "./Navigation/NavBar/index";
+import Education from "./Navigation/Education/index";
+import Resume from "./Navigation/Resumedownload/index";
+import Intro from "./Navigation/Intro/index";
 import "./index.css";
 class App extends React.Component {
   constructor(props) {

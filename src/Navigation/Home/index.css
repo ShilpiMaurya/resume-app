@@ -123,7 +123,7 @@
   width: 370px;
   height: 230px;
   background-color: #f0e5df;
-  background-image: url("../images/profile.jpeg");
+  background-image: url("../../images/profile.jpeg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -131,7 +131,7 @@
 }
 
 .logo {
-  background-image: url("../images/logo.png");
+  background-image: url("../../images/logo.png");
   width: 50px;
   height: 50px;
   background-size: contain;

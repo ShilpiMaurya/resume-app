@@ -1,5 +1,5 @@
 import React from "react";
-import "./Intro.css";
+import "./index.css";
 function Intro(props) {
   return (
     <div className="intro">

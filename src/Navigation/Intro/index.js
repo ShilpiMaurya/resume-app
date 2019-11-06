@@ -7,7 +7,7 @@ function Intro(props) {
       <div className="mask" />
       <div className="text">
         <p className="name">Shilpi Maurya</p>
-        <p className="work">aspiring front-end development </p>
+        <p className="work">aspiring front-end developer</p>
       </div>
     </div>
   );

@@ -1,136 +1,16 @@
 .home {
-  padding: 120px 15px 0px 15px;
-  color: #999999;
-  font-family: sans-serif;
+  padding: var(--section-padding);
+  font-family: var(--project-font-family);
 }
-.top-1 {
+.home_part1 {
   display: flex;
   flex-direction: row;
 }
-@media only screen and (max-width: 866px) {
-  .top-1 {
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 30px;
-  }
-}
-@media only screen and (max-width: 866px) {
-  div.top-2 {
-    flex-direction: column;
-    justify-content: center;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
-}
-@media only screen and (max-width: 866px) {
-  div.inside-1 {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
-}
-@media only screen and (max-width: 866px) {
-  div.inside-2 {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
-}
-@media only screen and (max-width: 866px) {
-  div.inside-4 {
-    padding-top: 50px;
-    padding-right: 0px;
-  }
-}
-@media only screen and (max-width: 866px) {
-  div.canvas {
-    padding-top: 50px;
-  }
-}
-@media only screen and (max-width: 550px) {
-  hr {
-    width: 65%;
-    margin-left: 0px;
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  div.canvas {
-    width: 400px;
-  }
-}
-@media only screen and (max-width: 550px) {
-  div.inside-4 {
-    width: 400px;
-  }
-}
-@media only screen and (max-width: 490px) {
-  .home {
-    padding-left: 0px;
-  }
-}
-@media only screen and (max-width: 450px) {
-  div.top-1 {
-    padding-left: 0px;
-    margin-left: 0px;
-  }
-}
-@media only screen and (max-width: 450px) {
-  div.inside-3 {
-    padding-left: 0px;
-    margin-left: 0px;
-  }
-}
-@media only screen and (max-width: 450px) {
-  div.inside-4 {
-    padding-left: 0px;
-    margin-left: 0px;
-  }
-}
-@media only screen and (max-width: 450px) {
-  button.bob-inside {
-    padding-left: 0px;
-    margin-left: 0px;
-    width: 385px;
-  }
-}
-@media only screen and (max-width: 410px) {
-  div.canvas {
-    width: 350px;
-  }
-}
-@media only screen and (max-width: 410px) {
-  div.inside-3 {
-    width: 340px;
-  }
-}
-@media only screen and (max-width: 410px) {
-  button.bob-inside {
-    width: 350px;
-  }
-}
-@media only screen and (max-width: 410px) {
-  div.inside-4 {
-    width: 360px;
-  }
-}
-.top-2 {
+.home_part2 {
   display: flex;
   flex-direction: row;
-  padding: 70px 0px 0px;
-  margin: 0px 15px;
 }
-.inside-3 {
-  margin-left: 30px;
-  width: 370px;
-  height: 230px;
-  background-color: #f0e5df;
-  background-image: url("../../images/profile.jpeg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 0px 15px;
-}
-
-.logo {
+.profile--logo {
   background-image: url("../../images/logo.png");
   width: 50px;
   height: 50px;
@@ -138,53 +18,59 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.inside-4 {
-  padding: 0px 15px;
-  width: 485px;
-  height: 298px;
-  margin-left: 15px;
+.profile--heading1 {
+  color: var(--primary-color);
+  font-size: 48px;
 }
-.inside-1 {
-  padding: 0px 60px 0px 0px;
-  width: 259;
-  height: 148;
-  line-height: 0.2em;
-  margin-left: 35px;
-}
-.inside-2 {
-  width: 493;
-  height: 148;
-  padding: 0px 0px 0px 60px;
+.profile--heading2 {
+  color: #d4d4d4;
   font-size: 18px;
-  line-height: 1.5em;
-  margin-right: 25px;
 }
-@media only screen and (max-width: 866px) {
-  .line {
-    display: none;
-  }
-}
-.line {
-  border-left: 1px ridge #999999;
+.home_part1--profile {
+  line-height: 0.2em;
   height: 148px;
 }
-.bob {
-  padding: 20px 0px 0px;
+.home_part1--summary {
+  font-size: 18px;
+  line-height: 1.5em;
+  height: 148px;
+  color: var(--secondary-color);
 }
-.bob-inside {
-  width: 400px;
-  height: 48px;
-  background-color: #ff7632;
-  color: white;
-  font-size: 14px;
-  margin-left: 30px;
+.part1_partitionLine {
+  border-left: 1px ridge var(--secondary-color);
+  height: 148px;
 }
-.data {
+.info--heading {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+.info--content {
   line-height: 0.4em;
   font-size: 18px;
-  color: #999999;
+  color: var(--secondary-color);
 }
-.canvas {
-  display: flex;
-  flex-direction: column;
+.content--special {
+  color: var(--primary-color);
+}
+.picture--myPic {
+  width: 370px;
+  height: 230px;
+  background-color: #f0e5df;
+  background-image: url("../../images/profile.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.download_button {
+  width: 370px;
+  height: 48px;
+  background-color: var(--primary-color);
+  font-size: 14px;
+}
+.download_button--text {
+  color: white;
+}
+.home_part2--picture {
+  width: 370px;
+  height: 278px;
 }

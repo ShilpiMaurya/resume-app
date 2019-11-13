@@ -1,83 +1,60 @@
 import React from "react";
 import "./index.css";
+import data from "../../resume.json";
 function Home(props, ref) {
   return (
     <>
       <div ref={ref} className="home">
-        <div className="top-1">
-          <div className="inside-1">
-            <div className="logo"></div>
-            <h1 style={{ color: "#FF7632", fontSize: "48px" }}>PROFILE</h1>
-            <h5
-              style={{
-                color: "#D4D4D4",
-                fontSize: "18px"
-              }}
-            >
-              My Personal Info
-            </h5>
+        <div className="home_part1">
+          <div className="home_part1--profile">
+            <div className="profile--logo"></div>
+            <h1 className="profile--heading1">PROFILE</h1>
+            <h5 className="profile--heading2">My Personal Info</h5>
           </div>
-          <div className="line"></div>
-          <div className="inside-2">
-            <p>
-              Keenly interested in the universe of front-end development and
-              user experience. Aspiring to become a front-end web developer to
-              learn, explore and provide great user experience on web-based
-              digital products and services.
-            </p>
+          <div className="part1_partitionLine"></div>
+          <div className="home_part1--summary">
+            <p>{data.basics.summary}</p>
           </div>
         </div>
-        <div className="top-2">
-          <div className="canvas">
-            <div className="inside-3"></div>
-            <div className="bob">
-              <button className="bob-inside">
-                <a
-                  href={"https://registry.jsonresume.org/ShilpiMaurya"}
-                  target={"_blank"}
-                  style={{
-                    color: "white"
-                  }}
-                >
-                  Download Resume
-                </a>
-              </button>
-            </div>
+        <div className="home_part2">
+          <div className="home_part2--picture">
+            <div className="picture--myPic"></div>
+            <button className="download_button">
+              <a
+                className="download_button--text"
+                href={"https://registry.jsonresume.org/ShilpiMaurya"}
+                target={"_blank"}
+              >
+                Download Resume
+              </a>
+            </button>
           </div>
-          <div className="inside-4">
-            <h3
-              style={{
-                color: "#FF7632",
-                fontSize: "20px",
-                marginTop: "0px"
-              }}
-            >
-              Personal Info
-            </h3>
-            <p className="data">Name: Shilpi Maurya</p>
+          <div className="home_part2--info">
+            <h3 className="info--heading">Personal Info</h3>
+            <p className="info--content">Name: {data.basics.name}</p>
             <hr />
-            <p className="data">Age: 24 Years Old</p>
+            <p className="info--content">Age: {data.basics.age}</p>
             <hr />
 
-            <p className="data">Phone: +91-9149235516</p>
+            <p className="info--content">Phone: {data.basics.phone}</p>
             <hr />
 
-            <p className="data">Email: meshilpi94@gmail.com</p>
+            <p className="info--content">Email: {data.basics.email}</p>
             <hr />
-            <p className="data">
+            <p className="info--content">
               Github:{" "}
               <a
-                href={"https://github.com/ShilpiMaurya"}
+                className="content--special"
+                href={data.basics.profiles.url}
                 target={"_blank"}
-                style={{
-                  color: "#FF7632"
-                }}
               >
-                https://github.com/ShilpiMaurya
+                {data.basics.profiles.url}
               </a>
             </p>
             <hr />
-            <p className="data">Country: India</p>
+            <p className="info--content">
+              Country: {data.basics.location.country}
+            </p>
           </div>
         </div>
       </div>

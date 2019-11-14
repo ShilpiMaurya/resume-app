@@ -77,3 +77,92 @@
 .home_part2--picture {
   padding-right: 60px;
 }
+
+/* for screen-size: 768px */
+
+@media only screen and (max-width: 768px) {
+  .home {
+    padding: 100px 10px 50px 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home_part2--picture {
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home_part1--profile {
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home_part1--summary {
+    padding-left: 30px;
+  }
+}
+
+/* for screen-size: 480px */
+
+@media only screen and (max-width: 480px) {
+  div.home_part1 {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 480px) {
+  div.home_part2 {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .part1_partitionLine {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home_part1--summary {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home_part2--info {
+    padding-top: 50px;
+  }
+}
+
+/* for screen-size: 320px */
+
+@media only screen and (max-width: 320px) {
+  .home {
+    padding: 100px 0px 50px 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .picture--myPic {
+    width: 310px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .download_button {
+    width: 310px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .home_part2 {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .info--content {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .home_part1--summary {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .home_part2--info {
+    padding-top: 40px;
+  }
+}

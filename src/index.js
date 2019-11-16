@@ -8,6 +8,7 @@ import Education from "./Navigation/Education";
 import Resume from "./Navigation/Resumedownload";
 import Intro from "./Navigation/Intro";
 import "./index.css";
+import "./theme.css";
 class App extends React.Component {
   constructor(props) {
     super(props);

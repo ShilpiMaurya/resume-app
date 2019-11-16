@@ -24,7 +24,7 @@
   font-size: 48px;
 }
 .profile--heading2 {
-  color: #d4d4d4;
+  color: var(--sub-heading-color);
   font-size: 18px;
 }
 .home_part1--profile {
@@ -59,7 +59,7 @@
 .picture--myPic {
   width: 370px;
   height: 230px;
-  background-color: #f0e5df;
+  background-color: var(--pic-background-color);
   background-image: url("../../images/profile.jpeg");
   background-position: center;
   background-size: contain;
@@ -72,97 +72,116 @@
   font-size: 14px;
 }
 .download_button--text {
-  color: white;
+  color: var(--button-color);
 }
 .home_part2--picture {
   padding-right: 60px;
 }
+/* responsive site */
 
-/* for screen-size: 768px */
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 831px) {
   .home {
-    padding: 100px 10px 50px 10px;
+    padding: 100px 20px 50px 20px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 804px) {
   .home_part2--picture {
     padding-right: 30px;
   }
 }
-@media only screen and (max-width: 768px) {
-  .home_part1--profile {
-    padding-right: 30px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .home_part1--summary {
-    padding-left: 30px;
+@media only screen and (max-width: 804px) {
+  .home {
+    padding: 100px 0px 50px 20px;
   }
 }
 
-/* for screen-size: 480px */
+/* perfect view at 768px (tablet view) */
 
-@media only screen and (max-width: 480px) {
-  div.home_part1 {
+@media only screen and (max-width: 751px) {
+  .home_part1 {
+    display: flex;
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 480px) {
-  div.home_part2 {
+@media only screen and (max-width: 751px) {
+  .home_part2 {
+    display: flex;
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 751px) {
   .part1_partitionLine {
     display: none;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 751px) {
   .home_part1--summary {
     padding-left: 0px;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 751px) {
+  .home_part2 {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 751px) {
   .home_part2--info {
-    padding-top: 50px;
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .home_part1--summary {
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .home {
+    padding: 100px 20px 50px 50px;
   }
 }
 
-/* for screen-size: 320px */
+/* @ 480px */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
+  .home_part2--picture {
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home {
+    padding: 100px 10px 50px 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
   .home {
     padding: 100px 0px 50px 0px;
   }
 }
-@media only screen and (max-width: 320px) {
+
+@media only screen and (max-width: 380px) {
   .picture--myPic {
     width: 310px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 380px) {
+  .home_part2--picture {
+    width: 310px;
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 380px) {
   .download_button {
     width: 310px;
   }
 }
-@media only screen and (max-width: 320px) {
-  .home_part2 {
-    padding-top: 50px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .info--content {
-    font-size: 16px;
-  }
-}
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 380px) {
   .home_part1--summary {
     font-size: 16px;
   }
 }
-@media only screen and (max-width: 320px) {
-  .home_part2--info {
-    padding-top: 40px;
+@media only screen and (max-width: 380px) {
+  .info--content {
+    font-size: 16px;
   }
 }

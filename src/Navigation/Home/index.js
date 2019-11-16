@@ -12,9 +12,7 @@ function Home(props, ref) {
             <h5 className="profile--heading2">My Personal Info</h5>
           </div>
           <div className="part1_partitionLine"></div>
-          <div className="home_part1--summary">
-            <p>{data.basics.summary}</p>
-          </div>
+          <div className="home_part1--summary">{data.basics.summary}</div>
         </div>
         <div className="home_part2">
           <div className="home_part2--picture">

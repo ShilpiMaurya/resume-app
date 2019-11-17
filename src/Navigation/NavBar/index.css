@@ -9,5 +9,5 @@
 }
 button {
   color: var(--primary-color);
-  background-color: var(-button-color);
+  background-color: var(--button-color);
 }

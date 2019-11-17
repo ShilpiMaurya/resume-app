@@ -8,6 +8,6 @@
   right: 0;
 }
 button {
-  color: #ff7632;
-  background-color: white;
+  color: var(--primary-color);
+  background-color: var(-button-color);
 }

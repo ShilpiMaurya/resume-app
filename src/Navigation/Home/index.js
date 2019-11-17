@@ -12,12 +12,14 @@ function Home(props, ref) {
             <h5 className="profile--heading2">My Personal Info</h5>
           </div>
           <div className="part1_partitionLine"></div>
-          <div className="home_part1--summary">{data.basics.summary}</div>
+          <div className="home_part1--summary">
+            <div>{data.basics.summary}</div>
+          </div>
         </div>
         <div className="home_part2">
           <div className="home_part2--picture">
             <div className="picture--myPic"></div>
-            <button className="download_button">
+            <div className="download_button">
               <a
                 className="download_button--text"
                 href={"https://registry.jsonresume.org/ShilpiMaurya"}
@@ -25,7 +27,7 @@ function Home(props, ref) {
               >
                 Download Resume
               </a>
-            </button>
+            </div>
           </div>
           <div className="home_part2--info">
             <h3 className="info--heading">Personal Info</h3>

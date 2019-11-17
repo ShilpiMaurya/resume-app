@@ -1,23 +1,21 @@
 {
   "basics": {
     "name": "Shilpi Maurya",
+    "age": "24 Years Old",
     "label": "Aspiring Front-end Developer",
     "picture": "https://avatars1.githubusercontent.com/u/47273243?s=460&v=4",
     "email": "meshilpi94@gmail.com",
-    "phone": "+818041417347",
+    "phone": "+91-9149235516",
     "website": "",
-    "summary": "Eager to explore, experience and learn from the new challenges with the motive of growth",
+    "summary": "Keenly interested in the universe of front-end development and user experience. Aspiring to become a front-end web developer to learn, explore and provide great user experience on web-based digital products and services.",
     "location": {
-      "city": "Tokyo",
-      "countryCode": "JP"
+      "country": "India"
     },
-    "profiles": [
-      {
-        "network": "github",
-        "username": "ShilpiMaurya",
-        "url": "https://github.com/ShilpiMaurya"
-      }
-    ]
+    "profiles": {
+      "network": "github",
+      "username": "ShilpiMaurya",
+      "url": "https://github.com/ShilpiMaurya"
+    }
   },
 
   "education": [

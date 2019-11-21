@@ -38,22 +38,20 @@
     }
   ],
 
-  "skills": [
-    {
-      "name": "Web Development",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "CSS Animations and Transitions",
-        "Responsive Design",
-        "Javascript",
-        "ESlint and Prettier",
-        "GitFlow",
-        "SEO",
-        "React"
-      ]
-    }
-  ],
+  "skills": {
+    "name": "Web Development",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "CSS Animations and Transitions",
+      "Responsive Design",
+      "Javascript",
+      "ESlint and Prettier",
+      "GitFlow",
+      "SEO",
+      "React"
+    ]
+  },
   "languages": [
     {
       "language": "English",

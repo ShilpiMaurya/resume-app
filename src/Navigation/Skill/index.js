@@ -21,69 +21,87 @@ function Skills(props, ref) {
             <div className="skills_web-development_column">
               <div className="skills_web-development_logo1"></div>
               <div className="skills_web-development_name">
-                {data.skills.keywords[0]}
+                {data.skills[0].name}
               </div>
-              <div className="skills_web-development_level">Intermediate</div>
+              <div className="skills_web-development_level">
+                {data.skills[0].level}
+              </div>
             </div>
             <div className="skills_web-development_column">
               <div className="skills_web-development_logo2"></div>
               <div className="skills_web-development_name">
-                {data.skills.keywords[1]}
+                {data.skills[1].name}
               </div>
-              <div className="skills_web-development_level">Intermediate</div>
+              <div className="skills_web-development_level">
+                {data.skills[1].level}
+              </div>
             </div>
             <div className="skills_web-development_column">
               <div className="skills_web-development_logo5"></div>
               <div className="skills_web-development_name">
-                {data.skills.keywords[3]}
+                {data.skills[3].name}
               </div>
-              <div className="skills_web-development_level">Intermediate</div>
+              <div className="skills_web-development_level">
+                {data.skills[3].level}
+              </div>
             </div>
           </div>
           <div className="skills_web-development_content--part2">
             <div className="skills_web-development_column">
               <div className="skills_web-development_logo9"></div>
               <div className="skills_web-development_name">
-                {data.skills.keywords[8]}
+                {data.skills[8].name}
               </div>
-              <div className="skills_web-development_level">Intermediate</div>
+              <div className="skills_web-development_level">
+                {data.skills[8].level}
+              </div>
             </div>
             <div className="skills_web-development_column">
               <div className="skills_web-development_logo3"></div>
               <div className="skills_web-development_name">
-                {data.skills.keywords[4]}
+                {data.skills[4].name}
               </div>
-              <div className="skills_web-development_level">Intermediate</div>
+              <div className="skills_web-development_level">
+                {data.skills[4].level}
+              </div>
             </div>
             <div className="skills_web-development_column">
               <div className="skills_web-development_logo6"></div>
               <div className="skills_web-development_name">
-                {data.skills.keywords[5]}
+                {data.skills[5].name}
               </div>
-              <div className="skills_web-development_level">Intermediate</div>
+              <div className="skills_web-development_level">
+                {data.skills[5].level}
+              </div>
             </div>
           </div>
           <div className="skills_web-development_content--part3">
             <div className="skills_web-development_column">
               <div className="skills_web-development_logo7"></div>
               <div className="skills_web-development_name">
-                {data.skills.keywords[6]}
+                {data.skills[6].name}
               </div>
-              <div className="skills_web-development_level">Intermediate</div>
+              <div className="skills_web-development_level">
+                {data.skills[6].level}
+              </div>
             </div>
             <div className="skills_web-development_column">
               <div className="skills_web-development_logo8"></div>
               <div className="skills_web-development_name">
-                {data.skills.keywords[7]}
+                {data.skills[7].name}
               </div>
-              <div className="skills_web-development_level">Intermediate</div>
+              <div className="skills_web-development_level">
+                {data.skills[7].level}
+              </div>
             </div>
             <div className="skills_web-development_column">
               <div className="skills_web-development_logo4"></div>
               <div className="skills_web-development_name">
-                {data.skills.keywords[2]}
+                {data.skills[2].name}
               </div>
-              <div className="skills_web-development_level">Intermediate</div>
+              <div className="skills_web-development_level">
+                {data.skills[2].level}
+              </div>
             </div>
           </div>
         </div>

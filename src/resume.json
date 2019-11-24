@@ -38,28 +38,63 @@
     }
   ],
 
-  "skills": {
-    "name": "Web Development",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "CSS Animations and Transitions",
-      "Responsive Design",
-      "Javascript",
-      "ESlint and Prettier",
-      "GitFlow",
-      "SEO",
-      "React"
-    ]
-  },
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Intermediate",
+      "logo": "html.png"
+    },
+    {
+      "name": "CSS",
+      "level": "Intermediate",
+      "logo": "css.png"
+    },
+    {
+      "name": "CSS Animations and Transitions",
+      "level": "Intermediate",
+      "logo": "animation.png"
+    },
+    {
+      "name": "Responsive Design",
+      "level": "Intermediate",
+      "logo": "responsive.png"
+    },
+    {
+      "name": "Javascript",
+      "level": "Intermediate",
+      "logo": "js.png"
+    },
+    {
+      "name": "ESlint and Prettier",
+      "level": "Intermediate",
+      "logo": "eslint.png"
+    },
+    {
+      "name": "Gitflow",
+      "level": "Intermediate",
+      "logo": "git.png"
+    },
+    {
+      "name": "SEO",
+      "level": "Begginer",
+      "logo": "seo.png"
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "logo": "react.png"
+    }
+  ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native"
+      "fluency": "Native",
+      "logo": "english.png"
     },
     {
       "language": "Japanese",
-      "fluency": "Elementary Proficiency(N5)"
+      "fluency": "Elementary Proficiency(N5)",
+      "logo": "nihongo.png"
     }
   ],
   "interests": [

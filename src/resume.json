@@ -39,51 +39,69 @@
   ],
 
   "skills": [
-    {
-      "name": "HTML",
-      "level": "Intermediate",
-      "logo": "html.png"
-    },
-    {
-      "name": "CSS",
-      "level": "Intermediate",
-      "logo": "css.png"
-    },
-    {
-      "name": "CSS Animations and Transitions",
-      "level": "Intermediate",
-      "logo": "animation.png"
-    },
-    {
-      "name": "Responsive Design",
-      "level": "Intermediate",
-      "logo": "responsive.png"
-    },
-    {
-      "name": "Javascript",
-      "level": "Intermediate",
-      "logo": "js.png"
-    },
-    {
-      "name": "ESlint and Prettier",
-      "level": "Intermediate",
-      "logo": "eslint.png"
-    },
-    {
-      "name": "Gitflow",
-      "level": "Intermediate",
-      "logo": "git.png"
-    },
-    {
-      "name": "SEO",
-      "level": "Begginer",
-      "logo": "seo.png"
-    },
-    {
-      "name": "React",
-      "level": "Intermediate",
-      "logo": "react.png"
-    }
+    [
+      {
+        "name": "HTML",
+        "level": "Intermediate",
+        "logo": "html.png"
+      }
+    ],
+    [
+      {
+        "name": "CSS",
+        "level": "Intermediate",
+        "logo": "css.png"
+      }
+    ],
+    [
+      {
+        "name": "CSS Animations and Transitions",
+        "level": "Intermediate",
+        "logo": "animation.png"
+      }
+    ],
+    [
+      {
+        "name": "Responsive Design",
+        "level": "Intermediate",
+        "logo": "responsive.png"
+      }
+    ],
+    [
+      {
+        "name": "Javascript",
+        "level": "Intermediate",
+        "logo": "js.png"
+      }
+    ],
+    [
+      {
+        "name": "ESlint and Prettier",
+        "level": "Intermediate",
+        "logo": "eslint.png"
+      }
+    ],
+    [
+      {
+        "name": "Gitflow",
+        "level": "Intermediate",
+        "logo": "git.png"
+      }
+    ],
+    [
+      {
+        "name": "SEO",
+        "level": "Begginer",
+        "logo": "seo.png"
+      }
+    ],
+    [
+      {
+        "name": "React",
+        "level": "Intermediate",
+        "logo": "react.png"
+      }
+    ]
   ],
   "languages": [
     {

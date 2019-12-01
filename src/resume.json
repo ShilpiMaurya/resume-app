@@ -104,16 +104,20 @@
     ]
   ],
   "languages": [
-    {
-      "language": "English",
-      "fluency": "Native",
-      "logo": "english.png"
-    },
-    {
-      "language": "Japanese",
-      "fluency": "Elementary Proficiency(N5)",
-      "logo": "nihongo.png"
-    }
+    [
+      {
+        "language": "English",
+        "fluency": "Native",
+        "logo": "english.png"
+      }
+    ],
+    [
+      {
+        "language": "Japanese",
+        "fluency": "Elementary Proficiency(N5)",
+        "logo": "nihongo.png"
+      }
+    ]
   ],
   "interests": [
     {

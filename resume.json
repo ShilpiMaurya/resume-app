@@ -59,14 +59,20 @@
     }
   ],
   "languages": [
-    {
-      "language": "English",
-      "fluency": "Native"
-    },
-    {
-      "language": "Japanese",
-      "fluency": "Elementary (N5)"
-    }
+    [
+      {
+        "language": "English",
+        "fluency": "Native",
+        "logo": "english.png"
+      }
+    ],
+    [
+      {
+        "language": "Japanese",
+        "fluency": "Elementary (N5)",
+        "logo": "nihongo.png"
+      }
+    ]
   ],
   "interests": [
     { "name": "Front-end development" },

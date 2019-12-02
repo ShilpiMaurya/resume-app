@@ -4,7 +4,11 @@ function SkillTitle(props) {
   return (
     <>
       <div className="skills_web-development-content">
-        <div className="skills_web-development_heading_logo"></div>
+        <img
+          className="skills_web-development_heading_logo"
+          src={props.image}
+          alt={props.pic_name}
+        />
         <div className="skills_web-development_heading">{props.heading}</div>
       </div>
     </>

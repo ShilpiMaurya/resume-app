@@ -8,12 +8,10 @@ function LanguageItems() {
       const imgSource = skillImage(`./${logo}`);
       return (
         <>
-          <div className="skills_language_content">
-            <div className="skill_language_container">
-              <img className="skill_images" src={imgSource} alt="pic" />
-              <div className="skills_language_content_name">{language}</div>
-              <div className="skills_language_content_level">{fluency}</div>
-            </div>
+          <div className="skill_language_items">
+            <img className="skill_images" src={imgSource} alt="pic" />
+            <div className="skills_web-development_name">{language}</div>
+            <div className="skills_web-development_level">{fluency}</div>
           </div>
         </>
       );

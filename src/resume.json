@@ -53,25 +53,13 @@
         "logo": "css.png"
       }
     ],
+    [{ "name": "Javascript", "level": "Intermediate", "logo": "js.png" }],
+    [{ "name": "React", "level": "Intermediate", "logo": "react.png" }],
     [
       {
         "name": "CSS Animations and Transitions",
         "level": "Intermediate",
         "logo": "animation.png"
-      }
-    ],
-    [
-      {
-        "name": "Responsive Design",
-        "level": "Intermediate",
-        "logo": "responsive.png"
-      }
-    ],
-    [
-      {
-        "name": "Javascript",
-        "level": "Intermediate",
-        "logo": "js.png"
       }
     ],
     [
@@ -97,9 +85,9 @@
     ],
     [
       {
-        "name": "React",
+        "name": "Responsive Design",
         "level": "Intermediate",
-        "logo": "react.png"
+        "logo": "responsive.png"
       }
     ]
   ],
@@ -114,7 +102,7 @@
     [
       {
         "language": "Japanese",
-        "fluency": "Elementary Proficiency(N5)",
+        "fluency": "Elementary (N5)",
         "logo": "nihongo.png"
       }
     ]

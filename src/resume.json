@@ -53,18 +53,30 @@
         "logo": "css.png"
       }
     ],
-    [{ "name": "Javascript", "level": "Intermediate", "logo": "js.png" }],
-    [{ "name": "React", "level": "Intermediate", "logo": "react.png" }],
     [
       {
-        "name": "CSS Animations and Transitions",
+        "name": "Javascript",
+        "level": "Intermediate",
+        "logo": "js.png"
+      }
+    ],
+    [
+      {
+        "name": "React",
+        "level": "Intermediate",
+        "logo": "react.png"
+      }
+    ],
+    [
+      {
+        "name": "CSS animations and transitions",
         "level": "Intermediate",
         "logo": "animation.png"
       }
     ],
     [
       {
-        "name": "ESlint and Prettier",
+        "name": "ESlint and prettier",
         "level": "Intermediate",
         "logo": "eslint.png"
       }
@@ -79,13 +91,13 @@
     [
       {
         "name": "SEO",
-        "level": "Begginer",
+        "level": "Beginner",
         "logo": "seo.png"
       }
     ],
     [
       {
-        "name": "Responsive Design",
+        "name": "Responsive design",
         "level": "Intermediate",
         "logo": "responsive.png"
       }

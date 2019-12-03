@@ -7,13 +7,15 @@ function LanguageItems() {
     return subLanguages.map(({ language, fluency, logo }) => {
       const imgSource = skillImage(`./${logo}`);
       return (
-        <>
-          <div className="skill_language_items">
-            <img className="skill_images" src={imgSource} alt="pic" />
-            <div className="skills_web-development_name">{language}</div>
-            <div className="skills_web-development_level">{fluency}</div>
-          </div>
-        </>
+        <div className="skill_language_items">
+          <img
+            className="skill_images"
+            src={imgSource}
+            alt="logo of following skill"
+          />
+          <div className="skills_web-development_name">{language}</div>
+          <div className="skills_web-development_level">{fluency}</div>
+        </div>
       );
     });
   });

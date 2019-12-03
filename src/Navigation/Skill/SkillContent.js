@@ -7,13 +7,15 @@ function SkillContent(props) {
     return subSkills.map(({ name, level, logo }) => {
       const imgSource = skillImage(`./${logo}`);
       return (
-        <>
-          <div className="skill_language_items">
-            <img className="skill_images" src={imgSource} alt="logo" />
-            <div className="skills_web-development_name">{name}</div>
-            <div className="skills_web-development_level">{level}</div>
-          </div>
-        </>
+        <div className="skill_language_items">
+          <img
+            className="skill_images"
+            src={imgSource}
+            alt="logo of following skill"
+          />
+          <div className="skills_web-development_name">{name}</div>
+          <div className="skills_web-development_level">{level}</div>
+        </div>
       );
     });
   });

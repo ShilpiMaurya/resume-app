@@ -51,9 +51,6 @@
   width: 150px;
   overflow: hidden;
 }
-/* .skills_web-development_name:hover {
-  overflow: visible;
-} */
 .skills_web-development_level {
   background-color: var(--primary-color);
   color: var(--button-color);
@@ -122,8 +119,24 @@
     height: 40px;
   }
 }
+@media only screen and (max-width: 400px) {
+  .skills_web-development_name {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .skills_web-development_level {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .skill_content {
+    justify-content: center;
+  }
+}
 @media only screen and (max-width: 395px) {
   .skills {
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

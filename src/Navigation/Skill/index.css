@@ -1,0 +1,142 @@
+.skills {
+  font-family: var(--project-font-family);
+  padding: var(--section-padding);
+  background-color: var(--section-background-color);
+}
+.skills_profile {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../images/skill-background.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.skills_profile_logo {
+  background-image: url(../../images/skill_logo.png);
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.skills_profile_heading {
+  color: var(--primary-color);
+  font-size: 48px;
+  margin: 0px;
+}
+.skills_profile_sub-heading {
+  color: var(--sub-heading-color);
+  font-size: 18px;
+  margin: 0px;
+}
+.skills_web-development-content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+.skills_web-development_heading_logo {
+  width: 60px;
+  height: 60px;
+}
+.skills_web-development_heading {
+  color: var(--secondary-color);
+  font-size: 38px;
+  padding-top: 10px;
+}
+.skills_web-development_name {
+  color: var(--secondary-color);
+  font-size: 30px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 150px;
+  overflow: hidden;
+}
+.skills_web-development_level {
+  background-color: var(--primary-color);
+  color: var(--button-color);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  font-size: 18px;
+  justify-content: center;
+}
+.skill_images {
+  width: 100px;
+  height: 100px;
+  transition: all 0.5s ease-in-out;
+}
+.skill_images:hover {
+  transform: scale(1.2);
+}
+.skill_content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill_language_items {
+  padding: 25px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* responsive website */
+
+@media only screen and (max-width: 486px) {
+  .skills {
+    padding: 100px 20px 0px 20px;
+  }
+}
+@media only screen and (max-width: 456px) {
+  .skills {
+    padding: 100px 10px 0px 10px;
+  }
+}
+@media only screen and (max-width: 456px) {
+  .skill_language_items {
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .skills_web-development_heading {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .skills_profile_heading {
+    font-size: 38px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .skills_profile_sub-heading {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .skills_web-development_heading_logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .skills_web-development_name {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .skills_web-development_level {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .skill_content {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .skills {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

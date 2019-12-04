@@ -1,18 +1,12 @@
 .contact {
   height: 700px;
-  padding-top: 40px;
 }
-.skills {
-  height: 700px;
-  padding-top: 40px;
-}
+
 .education {
   height: 700px;
-  padding-top: 40px;
 }
 .resume-download {
   height: 700px;
-  padding-top: 40px;
 }
 .container {
   display: flex;

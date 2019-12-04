@@ -1,9 +1,10 @@
 import React from "react";
 import "./index.css";
+import data from "../../resume.json";
 import SectionHead from "./SectionHead";
 import SkillTitle from "./SkillTitle";
 import SkillContent from "./SkillContent";
-import LanguageItems from "./LanguageItems";
+const skillImage = require.context("../../images/");
 function Skills(props, ref) {
   return (
     <div ref={ref} className="skills">
@@ -13,14 +14,14 @@ function Skills(props, ref) {
         image={require("../../images/web-dev-logo.png")}
       />
       <div className="skill_content">
-        <SkillContent />
+        <SkillContent info={data.skills} picture={skillImage} />
       </div>
       <SkillTitle
         heading="Languages"
         image={require("../../images/languages.png")}
       />
       <div className="skill_content">
-        <LanguageItems />
+        <SkillContent info={data.languages} picture={skillImage} />
       </div>
     </div>
   );

@@ -106,15 +106,15 @@
   "languages": [
     [
       {
-        "language": "English",
-        "fluency": "Native",
+        "name": "English",
+        "level": "Native",
         "logo": "english.png"
       }
     ],
     [
       {
-        "language": "Japanese",
-        "fluency": "Elementary (N5)",
+        "name": "Japanese",
+        "level": "Elementary (N5)",
         "logo": "nihongo.png"
       }
     ]

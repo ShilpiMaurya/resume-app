@@ -14,9 +14,8 @@ function EducationContent(props) {
       <div className="vertical_line" />
       <div className="education_container_part2">
         <div className="education_type">
-          {props.institution}
-          <br />
-          {props.area}
+          <div className="education_type_heading">{props.institution}</div>
+          <div className="education_type_sub-heading">{props.area}</div>
         </div>
         <div className="horizontal_line" />
         <div className="education_description">{props.courses}</div>

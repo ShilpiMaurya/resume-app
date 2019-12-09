@@ -76,7 +76,7 @@
 }
 .education_description {
   padding: 20px;
-  color: var(--main-text-color);
+  color: var(--secondary-text-color);
   font-size: 17px;
   line-height: 1.5em;
   position: relative;

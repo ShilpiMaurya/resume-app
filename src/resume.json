@@ -19,25 +19,24 @@
   },
 
   "education": [
-    {
-      "institution": "Codecademy (Online Course)",
-      "area": "Web Development",
-      "website": "https://www.codecademy.com/learn/paths/web-development",
-      "startDate": "2019 / March",
-      "endDate": "2019 / August",
-      "courses": [
-        "Styling a Website - Building Interactive JavaScript Websites - Git - Building Front-endApplications with React"
-      ]
-    },
-    {
-      "institution": "Inderprastha Engineering College, India",
-      "area": "Electrical and Electronics Engineering (Bachelor)",
-      "startDate": "2013 / July",
-      "endDate": "2017 / June",
-      "courses": [
-        "Electrical machines - Switch gear and protection - Human Values and Professional Ethics - Cyber Security"
-      ]
-    }
+    [
+      {
+        "institution": "Codecademy (Online Course)",
+        "area": "Web Development",
+        "startDate": "2019 / March",
+        "endDate": "2019 / August",
+        "courses": "Styling a Website - Building Interactive JavaScript Websites - Git - Building Front-endApplications with React"
+      }
+    ],
+    [
+      {
+        "institution": "Inderprastha Engineering College, India",
+        "area": "Electrical and Electronics Engineering (Bachelor)",
+        "startDate": "2013 / July",
+        "endDate": "2017 / June",
+        "courses": "Electrical machines - Switch gear and protection - Human Values and Professional Ethics - Cyber Security"
+      }
+    ]
   ],
 
   "skills": [

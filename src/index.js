@@ -47,7 +47,7 @@ class App extends React.Component {
           <Home ref={this.homeRef} />
           <Skills ref={this.skillRef} />
           <Education ref={this.educationRef} educationData={data.education} />
-          <Contacts ref={this.contactRef} />
+          <Contacts ref={this.contactRef} contactData={data.basics} />
           <Resume ref={this.resumeRef} />
         </div>
       </>

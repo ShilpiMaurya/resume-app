@@ -1,3 +1,6 @@
+.resume-download {
+  height: 700px;
+}
 .container {
   display: flex;
   flex-direction: column;

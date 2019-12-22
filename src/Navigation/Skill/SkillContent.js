@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
 function SkillContent(props) {
-  return props.info.map(subSkills => {
-    return subSkills.map(({ name, level, logo }, index) => {
+  return props.info.map((subSkills, index) => {
+    return subSkills.map(({ name, level, logo }) => {
       const imgSource = props.picture(`./${logo}`);
       return (
         <div key={index} className="skill_language_items">

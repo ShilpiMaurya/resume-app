@@ -7,6 +7,7 @@ import NavBar from "./Navigation/NavBar";
 import Education from "./Navigation/Education";
 import Resume from "./Navigation/Resumedownload";
 import Intro from "./Navigation/Intro";
+import data from "./resume.json";
 import "./index.css";
 import "./theme.css";
 class App extends React.Component {
@@ -46,7 +47,7 @@ class App extends React.Component {
           <Home ref={this.homeRef} />
           <Skills ref={this.skillRef} />
           <Education ref={this.educationRef} />
-          <Contacts ref={this.contactRef} />
+          <Contacts ref={this.contactRef} contactData={data.basics} />
           <Resume ref={this.resumeRef} />
         </div>
       </>

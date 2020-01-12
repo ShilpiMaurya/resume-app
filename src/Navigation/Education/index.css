@@ -50,6 +50,8 @@
   line-height: 1.6em;
   text-align: center;
   position: relative;
+}
+.leftAnimation {
   animation-name: date;
   animation-duration: 3s;
   animation-fill-mode: forwards;
@@ -80,6 +82,8 @@
   font-size: 17px;
   line-height: 1.5em;
   position: relative;
+}
+.rightAnimation {
   animation-name: description;
   animation-duration: 3s;
   animation-fill-mode: forwards;

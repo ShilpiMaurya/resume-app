@@ -37,7 +37,29 @@ class App extends React.Component {
       behavior: "smooth"
     });
   };
-  componentDidMount() {}
+  handleScroll = () => {
+    const currentHeight = document.documentElement.scrollTop;
+    if (currentHeight > 3500) {
+      const dateClassSelector = document.getElementsByClassName(
+        "education_date"
+      );
+      for (let i = 0; i < dateClassSelector.length; i++) {
+        dateClassSelector[i].classList.add("leftAnimation");
+      }
+      const descriptionClassSelector = document.getElementsByClassName(
+        "education_description"
+      );
+      for (let i = 0; i < descriptionClassSelector.length; i++) {
+        descriptionClassSelector[i].classList.add("rightAnimation");
+      }
+    }
+  };
+  componentDidMount() {
+    document.addEventListener("scroll", this.handleScroll);
+  }
+  componentWillUnmount() {
+    document.removeEventListener("scroll", this.handleScroll);
+  }
   render() {
     return (
       <>

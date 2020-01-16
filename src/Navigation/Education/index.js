@@ -4,7 +4,10 @@ import EducationContent from "./EducationContent";
 import EducationHeader from "./EducationHeader";
 const Education = ({ educationData }, ref) => {
   const handleScroll = () => {
-    if (document.documentElement.scrollTop >= ref.current.offsetTop) {
+    if (
+      document.documentElement.scrollTop >
+      ref.current.offsetTop - ref.current.offsetHeight / 2
+    ) {
       const dateClassSelector = document.getElementsByClassName(
         "education_date"
       );

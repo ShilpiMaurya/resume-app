@@ -30,6 +30,9 @@
 .contact_container_sub-heading {
   font-size: 20px;
 }
+a {
+  color: var(--button-color);
+}
 .contact_logo {
   width: 130px;
   height: 130px;

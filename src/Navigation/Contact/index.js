@@ -7,14 +7,22 @@ function Contact(props, ref) {
       <h1 className="contact_heading">Contact Me</h1>
       <div className="contact_container">
         <ContactSection
-          heading="Phone-no"
-          subheading={props.contactData.phone}
+          heading="Call Me"
+          subheading={
+            <a href={`tel:${props.contactData.phone}`}>
+              {props.contactData.phone}
+            </a>
+          }
           imgsrc={require("../../images/phone-no1.png")}
           picInfo="phone logo"
         />
         <ContactSection
-          heading="Email"
-          subheading={props.contactData.email}
+          heading="Mail Me"
+          subheading={
+            <a href={`mailto:${props.contactData.email}`}>
+              {props.contactData.email}
+            </a>
+          }
           imgsrc={require("../../images/email1.png")}
           picInfo="email logo"
         />

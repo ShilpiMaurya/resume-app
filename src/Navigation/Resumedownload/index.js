@@ -6,7 +6,7 @@ function Resume(props, ref) {
       <div className="resume-download_logo"></div>
       <a
         className="resume-download_heading"
-        href={"https://registry.jsonresume.org/ShilpiMaurya"}
+        href="https://raw.githubusercontent.com/ShilpiMaurya/resume-app/develop/src/resume.json"
         target={"_blank"}
       >
         Download Resume

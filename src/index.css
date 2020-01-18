@@ -1,10 +1,10 @@
+.resume-download {
+  height: 700px;
+}
 .container {
   display: flex;
   flex-direction: column;
 }
 body {
   font-family: var(--project-font-family);
-}
-.contact {
-  height: 700px;
 }

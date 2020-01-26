@@ -2,6 +2,13 @@ import React from "react";
 import "./index.css";
 class NavBar extends React.Component {
   render() {
+    window.onscroll = () => {
+      if (document.documentElement.scrollTop >= 700) {
+        document.querySelector(".nav-bar").style.display = "flex";
+      } else {
+        document.querySelector(".nav-bar").style.display = "none";
+      }
+    };
     return (
       <div className="nav-bar">
         <button

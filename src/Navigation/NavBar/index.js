@@ -8,6 +8,7 @@ const NavBar = props => {
       navbarRef.current.classList.add("nav-bar-animation");
     } else {
       navbarRef.current.style.visibility = "hidden";
+      navbarRef.current.classList.remove("nav-bar-animation");
     }
   };
   useEffect(() => {

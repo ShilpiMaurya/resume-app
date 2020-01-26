@@ -1,5 +1,5 @@
 .resume-download {
-  padding: 20px;
+  padding: var(--lower-section-padding);
   display: flex;
   flex-direction: row;
   background-color: var(--primary-color);

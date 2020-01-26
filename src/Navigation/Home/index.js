@@ -22,7 +22,7 @@ function Home(props, ref) {
             <div className="download_button">
               <a
                 className="download_button--text"
-                href={"https://registry.jsonresume.org/ShilpiMaurya"}
+                href="https://raw.githubusercontent.com/ShilpiMaurya/resume-app/develop/src/resume.json"
                 target={"_blank"}
               >
                 Download Resume

@@ -7,6 +7,29 @@
   left: 0;
   right: 0;
 }
+.nav-bar-animation {
+  animation-name: navAnimation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes navAnimation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 button {
   color: var(--primary-color);
   background-color: var(--button-color);
@@ -16,7 +39,7 @@ button {
   border-radius: 100px;
   font-weight: 400;
   outline: none;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: var(--shadow-style);
 }
 @media only screen and (max-width: 480px) {
   button {

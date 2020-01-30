@@ -1,9 +1,9 @@
 import React from "react";
 import "./index.css";
 import data from "../../resume.json";
-function Intro(props) {
+function Intro(props, ref) {
   return (
-    <div className="intro">
+    <div className="intro" ref={ref}>
       <div className="image" />
       <div className="mask" />
       <div className="text">
@@ -13,4 +13,4 @@ function Intro(props) {
     </div>
   );
 }
-export default Intro;
+export default React.forwardRef(Intro);

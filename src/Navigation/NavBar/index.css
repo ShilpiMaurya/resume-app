@@ -6,8 +6,27 @@
   z-index: 1000;
   left: 0;
   right: 0;
+  opacity: 0;
+  transition: opacity 600ms ease-in-out;
+}
+.nav-bar-active {
+  opacity: 1;
 }
 button {
   color: var(--primary-color);
   background-color: var(--button-color);
+  width: 85px;
+  height: 25px;
+  font-size: 15px;
+  border-radius: 100px;
+  font-weight: 400;
+  outline: none;
+  box-shadow: var(--shadow-style);
+}
+@media only screen and (max-width: 480px) {
+  button {
+    width: 68px;
+    height: 20px;
+    font-size: 12px;
+  }
 }

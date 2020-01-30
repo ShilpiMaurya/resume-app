@@ -1,19 +1,11 @@
 .image {
   width: 100%;
   height: 100%;
-  background-image: url("../../images/shilpi.jpg");
+  background-image: url("../../images/shilpi2.jpg");
   position: absolute;
   background-size: cover;
   background-position: center;
   overflow: hidden;
-}
-@media only screen and (max-width: 550px) {
-  .image {
-    background-image: url("../../images/crop.jpg");
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-  }
 }
 .text {
   z-index: 500;

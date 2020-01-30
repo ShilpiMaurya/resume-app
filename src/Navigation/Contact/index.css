@@ -1,4 +1,5 @@
 .contact {
+  padding: var(--lower-section-padding);
   background-color: var(--contact-bg-color);
   color: var(--button-color);
   opacity: 0.6;

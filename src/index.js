@@ -18,6 +18,7 @@ class App extends React.Component {
     this.educationRef = React.createRef();
     this.contactRef = React.createRef();
     this.resumeRef = React.createRef();
+    this.introRef = React.createRef();
   }
   handleChange = key => {
     let offsetTop = 0;
@@ -41,9 +42,9 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <NavBar onNavClick={this.handleChange} />
+        <NavBar onNavClick={this.handleChange} ref={this.introRef} />
         <div className="container">
-          <Intro />
+          <Intro ref={this.introRef} />
           <Home ref={this.homeRef} />
           <Skills ref={this.skillRef} />
           <Education ref={this.educationRef} educationData={data.education} />

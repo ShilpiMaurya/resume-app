@@ -1,22 +1,24 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useCallback } from "react";
 import "./index.css";
-const NavBar = props => {
+const NavBar = (props, ref) => {
   const navbarRef = useRef();
-  const manageScroll = () => {
-    if (document.documentElement.scrollTop >= 700) {
-      navbarRef.current.style.visibility = "visible";
-      navbarRef.current.classList.add("nav-bar-animation");
-    } else {
-      navbarRef.current.style.visibility = "hidden";
-      navbarRef.current.classList.remove("nav-bar-animation");
-    }
-  };
+  const manageScroll = useCallback(
+    e => {
+      if (e.target.documentElement.scrollTop >= ref.current.offsetHeight) {
+        navbarRef.current.classList.add("nav-bar-active");
+      } else {
+        navbarRef.current.classList.remove("nav-bar-active");
+      }
+    },
+    [ref, navbarRef]
+  );
+
   useEffect(() => {
     document.addEventListener("scroll", manageScroll);
     return () => {
       document.removeEventListener("scroll", manageScroll);
     };
-  });
+  }, [manageScroll]);
   return (
     <div className="nav-bar" ref={navbarRef}>
       <button
@@ -57,4 +59,4 @@ const NavBar = props => {
     </div>
   );
 };
-export default NavBar;
+export default React.forwardRef(NavBar);

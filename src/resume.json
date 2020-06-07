@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Shilpi Maurya",
-    "age": "24 Years Old",
-    "label": "Aspiring Front-end Developer",
+    "age": "25 years old",
+    "label": "Aspiring front-end developer",
     "picture": "https://avatars1.githubusercontent.com/u/47273243?s=460&v=4",
     "email": "meshilpi94@gmail.com",
     "phone": "+91-9149235516",
@@ -21,20 +21,39 @@
   "education": [
     [
       {
-        "institution": "Codecademy (Online Course)",
-        "area": "Web Development",
+        "institution": "Udemy (online course)",
+        "area": "The complete javascript course",
+        "startDate": "2020 / January",
+        "endDate": "on going",
+        "courses": "js basics, js behind the scenes, advanced js: objects and function, next generation js"
+      }
+    ],
+
+    [
+      {
+        "institution": "Udemy (online course)",
+        "area": "JavaScript algorithms and data structures masterclass",
+        "startDate": "2020 / January",
+        "endDate": "on going",
+        "courses": "big o notation, problem solving approach, recursion, searching algorithm, data structure introduction"
+      }
+    ],
+    [
+      {
+        "institution": "Codecademy (online course)",
+        "area": "Web development",
         "startDate": "2019 / March",
         "endDate": "2019 / August",
-        "courses": "Styling a Website - Building Interactive JavaScript Websites - Git - Building Front-end Applications with React"
+        "courses": "styling a website, building interactive javascript websites, git, building front-end applications with react"
       }
     ],
     [
       {
         "institution": "Inderprastha Engineering College, India",
         "area": "Electrical and Electronics Engineering (Bachelor)",
-        "startDate": "2013 / July",
+        "startDate": "2013 / August",
         "endDate": "2017 / June",
-        "courses": "Electrical machines - Switch gear and protection - Human Values and Professional Ethics - Cyber Security"
+        "courses": "electrical machines, switch gear and protection, human Values and professional ethics, cyber security"
       }
     ]
   ],

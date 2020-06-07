@@ -5,6 +5,7 @@
 .education_container_part1 {
   display: flex;
   flex-direction: column;
+  margin-right: 8px;
 }
 .education_logo {
   background-image: url(../../images/education_content_logo.png);
@@ -42,9 +43,10 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  padding-top: 20px;
 }
 .education_date {
-  padding: 12px 1px;
+  padding: 8px;
   background-color: var(--primary-color);
   color: var(--button-color);
   line-height: 1.6em;
@@ -100,6 +102,7 @@
   margin: 0px;
   padding-top: 20px;
   color: var(--primary-color);
+  font-size: 48px;
 }
 
 /* Responsive Website */
@@ -133,5 +136,10 @@
 @media only screen and (max-width: 400px) {
   .education {
     padding-left: 5px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .education_heading {
+    font-size: 38px;
   }
 }

@@ -78,6 +78,10 @@
   justify-content: center;
   align-content: center;
   align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+.skill_language_items:hover {
+  transform: scale(1.2);
 }
 
 /* responsive website */

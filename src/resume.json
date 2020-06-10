@@ -2,7 +2,7 @@
   "basics": {
     "name": "Shilpi Maurya",
     "age": "25 years old",
-    "label": "Aspiring front-end developer",
+    "label": "front-end developer",
     "picture": "https://avatars1.githubusercontent.com/u/47273243?s=460&v=4",
     "email": "meshilpi94@gmail.com",
     "phone": "+91-9149235516",
@@ -24,7 +24,7 @@
         "institution": "Udemy (online course)",
         "area": "The complete javascript course",
         "startDate": "2020 / January",
-        "endDate": "on going",
+        "endDate": "ongoing",
         "courses": "js basics, js behind the scenes, advanced js: objects and function, next generation js"
       }
     ],
@@ -34,7 +34,7 @@
         "institution": "Udemy (online course)",
         "area": "JavaScript algorithms and data structures masterclass",
         "startDate": "2020 / January",
-        "endDate": "on going",
+        "endDate": "ongoing",
         "courses": "big o notation, problem solving approach, recursion, searching algorithm, data structure introduction"
       }
     ],
@@ -53,7 +53,7 @@
         "area": "Electrical and Electronics Engineering (Bachelor)",
         "startDate": "2013 / August",
         "endDate": "2017 / June",
-        "courses": "electrical machines, switch gear and protection, human Values and professional ethics, cyber security"
+        "courses": "electrical machines, switch gear and protection, network analysis and synthesis, human values and professional ethics, cyber security"
       }
     ]
   ],

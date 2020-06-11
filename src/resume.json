@@ -89,7 +89,14 @@
     ],
     [
       {
-        "name": "CSS animations and transitions",
+        "name": "CSS animations",
+        "level": "Intermediate",
+        "logo": "animation.png"
+      }
+    ],
+    [
+      {
+        "name": "CSS transitions",
         "level": "Intermediate",
         "logo": "animation.png"
       }

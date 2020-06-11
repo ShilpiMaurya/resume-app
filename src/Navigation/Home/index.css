@@ -60,7 +60,7 @@
   width: 370px;
   height: 230px;
   background-color: var(--pic-background-color);
-  background-image: url("../../images/display-pic.jpg");
+  background-image: url("../../images/display-image.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

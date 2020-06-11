@@ -11,8 +11,8 @@ function SkillContent(props) {
             src={imgSource}
             alt="logo of following skill"
           /> */}
-          <div className="skills_web-development_name">{name}</div>
-          <div className="skills_web-development_level">{level}</div>
+          <div className="skills_web-development_level">{name}</div>
+          {/* <div className="skills_web-development_level">{level}</div> */}
         </div>
       );
     });

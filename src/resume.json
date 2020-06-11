@@ -96,14 +96,14 @@
     ],
     [
       {
-        "name": "ESlint and prettier",
+        "name": "Gatsby",
         "level": "Intermediate",
         "logo": "eslint.png"
       }
     ],
     [
       {
-        "name": "Gitflow",
+        "name": "Next.js",
         "level": "Intermediate",
         "logo": "git.png"
       }
@@ -111,6 +111,13 @@
     [
       {
         "name": "SEO",
+        "level": "Beginner",
+        "logo": "seo.png"
+      }
+    ],
+    [
+      {
+        "name": "Gitflow",
         "level": "Beginner",
         "logo": "seo.png"
       }

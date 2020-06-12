@@ -62,7 +62,8 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  padding: 10px;
+  padding: 5px;
+  min-width: 100px;
 }
 .skill_images {
   width: 100px;

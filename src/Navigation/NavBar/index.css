@@ -8,7 +8,7 @@
   right: 0;
   opacity: 0;
   transition: opacity 600ms ease-in-out;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 .nav-bar-active {
   opacity: 1;
@@ -16,18 +16,25 @@
 button {
   color: var(--primary-color);
   background-color: var(--button-color);
-  width: 85px;
-  height: 25px;
-  font-size: 15px;
+  /* width: 85px;
+  height: 25px; */
+  font-size: 20px;
   border-radius: 100px;
   font-weight: 400;
   outline: none;
   box-shadow: var(--shadow-style);
+  padding: 8px;
+  min-width: 80px;
 }
 @media only screen and (max-width: 480px) {
   button {
-    width: 68px;
-    height: 20px;
+    min-width: 70px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  button {
+    min-width: 60px;
     font-size: 12px;
   }
 }

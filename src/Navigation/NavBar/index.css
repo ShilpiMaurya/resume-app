@@ -22,6 +22,8 @@ button {
   border-radius: 100px;
   font-weight: 400;
   outline: none;
+  -moz-box-shawdow: var(--shadow-style);
+  -webkit-box-shadow: var(--shadow-style);
   box-shadow: var(--shadow-style);
   padding: 8px;
   min-width: 80px;

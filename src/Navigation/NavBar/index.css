@@ -13,20 +13,19 @@
 .nav-bar-active {
   opacity: 1;
 }
-button {
+.nav-bar_button {
   color: var(--primary-color);
   background-color: var(--button-color);
-  /* width: 85px;
-  height: 25px; */
   font-size: 20px;
   border-radius: 100px;
   font-weight: 400;
   outline: none;
-  -moz-box-shawdow: var(--shadow-style);
-  -webkit-box-shadow: var(--shadow-style);
   box-shadow: var(--shadow-style);
   padding: 8px;
   min-width: 80px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
 @media only screen and (max-width: 480px) {
   button {

@@ -1,0 +1,51 @@
+.resume-download {
+  padding: var(--lower-section-padding);
+  display: flex;
+  flex-direction: row;
+  background-color: var(--primary-color);
+  opacity: 0.9;
+  justify-content: center;
+}
+.resume-download_logo {
+  background-image: url(../../images/download1.png);
+  width: 130px;
+  height: 130px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.resume-download_heading {
+  font-size: 48px;
+  padding-top: 20px;
+  color: var(--heading-color);
+}
+.resume-download_link {
+  color: var(--heading-color);
+}
+
+/* responsive website */
+
+@media only screen and (max-width: 550px) {
+  .resume-download_heading {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .resume-download_logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .resume-download_logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .resume-download_heading {
+    font-size: 38px;
+  }
+}

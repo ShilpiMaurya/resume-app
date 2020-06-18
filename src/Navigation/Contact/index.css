@@ -1,0 +1,74 @@
+.contact {
+  padding: var(--lower-section-padding);
+  background-color: var(--contact-bg-color);
+  color: var(--button-color);
+  opacity: 0.6;
+  text-align: center;
+}
+.contact_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.contact_section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact_heading {
+  margin: 0px;
+  padding-top: 40px;
+  font-size: 48px;
+}
+.contact_container_heading {
+  font-size: 28px;
+  padding-bottom: 5px;
+}
+.contact_container_sub-heading {
+  font-size: 20px;
+}
+a {
+  color: var(--button-color);
+}
+.contact_logo {
+  width: 130px;
+  height: 130px;
+}
+/* responsive site */
+
+@media only screen and (max-width: 805px) {
+  .contact_section {
+    padding: 40px 30px 30px 50px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .contact_section {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .contact_container_heading {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .contact_container_sub-heading {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .contact_logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .contact_heading {
+    font-size: 38px;
+  }
+}

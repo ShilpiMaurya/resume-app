@@ -1,0 +1,225 @@
+.home {
+  padding: var(--section-padding);
+  font-family: var(--project-font-family);
+}
+.home_part1 {
+  display: flex;
+  flex-direction: row;
+}
+.home_part2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+}
+.profile--logo {
+  background-image: url("../../images/logo.png");
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.profile--heading1 {
+  color: var(--primary-color);
+  font-size: 48px;
+}
+.profile--heading2 {
+  color: var(--sub-heading-color);
+  font-size: 18px;
+}
+.home_part1--profile {
+  line-height: 0.2em;
+  height: 148px;
+  padding-right: 60px;
+}
+.home_part1--summary {
+  padding-left: 60px;
+  font-size: 18px;
+  line-height: 1.5em;
+  height: 148px;
+  color: var(--secondary-color);
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+.part1_partitionLine {
+  border-left: 1px ridge var(--secondary-color);
+  height: 148px;
+}
+.info--heading {
+  color: var(--primary-color);
+  font-size: 20px;
+  margin-top: 0px;
+}
+.info--content {
+  line-height: 0.4em;
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+.picture--myPic {
+  width: 370px;
+  height: 230px;
+  background-color: var(--pic-background-color);
+  background-image: url("../../images/display-image.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.download_button {
+  width: 370px;
+  height: 50px;
+  background-color: var(--primary-color);
+  font-size: 14px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: background-color ease-in 300ms;
+}
+.download_button:hover {
+  background-color: var(--primary-color--hover);
+}
+.content--special {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color ease-in 300ms;
+}
+.content--special:hover {
+  color: var(--primary-color--hover);
+}
+.download_button--text {
+  color: var(--button-color);
+  text-decoration: none;
+}
+.home_part2--picture {
+  padding-right: 60px;
+}
+/* responsive site */
+
+@media only screen and (max-width: 831px) {
+  .home {
+    padding: 100px 20px 50px 20px;
+  }
+}
+@media only screen and (max-width: 804px) {
+  .home_part2--picture {
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 804px) {
+  .home {
+    padding: 100px 0px 50px 20px;
+  }
+}
+
+/* perfect view at 768px (tablet view) */
+
+@media only screen and (max-width: 751px) {
+  .home_part1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .home_part2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .part1_partitionLine {
+    display: none;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .home_part1--summary {
+    padding-left: 0px;
+    align-items: flex-start;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .home_part2 {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .home_part2--info {
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .home_part1--summary {
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .home {
+    padding: 100px 20px 50px 50px;
+  }
+}
+
+/* @ 480px */
+
+@media only screen and (max-width: 480px) {
+  .home_part2--picture {
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home {
+    padding: 100px 10px 50px 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home {
+    padding: 100px 0px 50px 0px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .picture--myPic {
+    width: 310px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .home_part2--picture {
+    width: 310px;
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .download_button {
+    width: 310px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .home_part1--summary {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .info--content {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .profile--heading1 {
+    font-size: 38px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .profile--heading2 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .home {
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .home {
+    padding: 10px;
+  }
+}

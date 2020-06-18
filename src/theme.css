@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #ff7632;
+  --primary-color--hover: #e2540d;
+  --secondary-color: #999999;
+  --sub-heading-color: #d4d4d4;
+  --pic-background-color: #f0e5df;
+  --button-color: white;
+  --section-background-color: #f1f0f0;
+  --project-font-family: sans-serif;
+  --contact-bg-color: black;
+  --section-padding: 100px 20px 0px 50px;
+  --lower-section-padding: 50px 20px 20px 20px;
+  --heading-color: rgb(65, 64, 64);
+  --shadow-style: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

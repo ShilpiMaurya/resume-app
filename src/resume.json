@@ -1,0 +1,165 @@
+{
+  "basics": {
+    "name": "Shilpi Maurya",
+    "age": "25 years old",
+    "label": "front-end developer",
+    "picture": "https://avatars1.githubusercontent.com/u/47273243?s=460&v=4",
+    "email": "meshilpi94@gmail.com",
+    "phone": "+91-9149235516",
+    "website": "",
+    "summary": "Keenly interested in the universe of front-end development and user experience. Aspiring to become a front-end web developer to learn, explore and provide great user experience on web-based digital products and services.",
+    "location": {
+      "country": "India"
+    },
+    "profiles": {
+      "network": "github",
+      "username": "ShilpiMaurya",
+      "url": "https://github.com/ShilpiMaurya"
+    }
+  },
+
+  "education": [
+    [
+      {
+        "institution": "Udemy (online course)",
+        "area": "The complete javascript course",
+        "startDate": "2020 / January",
+        "endDate": "ongoing",
+        "courses": "js basics, js behind the scenes, advanced js: objects and function, next generation js"
+      }
+    ],
+
+    [
+      {
+        "institution": "Udemy (online course)",
+        "area": "JavaScript algorithms and data structures masterclass",
+        "startDate": "2020 / January",
+        "endDate": "ongoing",
+        "courses": "big o notation, problem solving approach, recursion, searching algorithm, data structure introduction"
+      }
+    ],
+    [
+      {
+        "institution": "Codecademy (online course)",
+        "area": "Web development",
+        "startDate": "2019 / March",
+        "endDate": "2019 / August",
+        "courses": "styling a website, building interactive javascript websites, git, building front-end applications with react"
+      }
+    ],
+    [
+      {
+        "institution": "Inderprastha Engineering College, India",
+        "area": "Electrical and Electronics Engineering (Bachelor)",
+        "startDate": "2013 / August",
+        "endDate": "2017 / June",
+        "courses": "electrical machines, switch gear and protection, network analysis and synthesis, human values and professional ethics, cyber security"
+      }
+    ]
+  ],
+
+  "skills": [
+    [
+      {
+        "name": "HTML",
+        "level": "Intermediate",
+        "logo": "html.png"
+      }
+    ],
+    [
+      {
+        "name": "CSS",
+        "level": "Intermediate",
+        "logo": "css.png"
+      }
+    ],
+    [
+      {
+        "name": "Javascript",
+        "level": "Intermediate",
+        "logo": "js.png"
+      }
+    ],
+    [
+      {
+        "name": "React",
+        "level": "Intermediate",
+        "logo": "react.png"
+      }
+    ],
+    [
+      {
+        "name": "CSS animations",
+        "level": "Intermediate",
+        "logo": "animation.png"
+      }
+    ],
+    [
+      {
+        "name": "CSS transitions",
+        "level": "Intermediate",
+        "logo": "animation.png"
+      }
+    ],
+    [
+      {
+        "name": "Gatsby",
+        "level": "Intermediate",
+        "logo": "eslint.png"
+      }
+    ],
+    [
+      {
+        "name": "Next.js",
+        "level": "Intermediate",
+        "logo": "git.png"
+      }
+    ],
+    [
+      {
+        "name": "SEO",
+        "level": "Beginner",
+        "logo": "seo.png"
+      }
+    ],
+    [
+      {
+        "name": "Gitflow",
+        "level": "Beginner",
+        "logo": "seo.png"
+      }
+    ],
+    [
+      {
+        "name": "Responsive design",
+        "level": "Intermediate",
+        "logo": "responsive.png"
+      }
+    ]
+  ],
+  "languages": [
+    [
+      {
+        "name": "English",
+        "level": "Native",
+        "logo": "english.png"
+      }
+    ],
+    [
+      {
+        "name": "Japanese",
+        "level": "Elementary (N5)",
+        "logo": "nihongo.png"
+      }
+    ]
+  ],
+  "interests": [
+    {
+      "name": "UX Design"
+    },
+    { "name": "Web Development" }
+  ],
+  "meta": {
+    "theme": "classy"
+  }
+}

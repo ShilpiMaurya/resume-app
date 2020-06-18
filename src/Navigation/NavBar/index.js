@@ -21,41 +21,46 @@ const NavBar = (props, ref) => {
   }, [manageScroll]);
   return (
     <div className="nav-bar" ref={navbarRef}>
-      <button
+      <div
+        className="nav-bar_button"
         onClick={() => {
           props.onNavClick("Homekey");
         }}
       >
         Home
-      </button>
-      <button
+      </div>
+      <div
+        className="nav-bar_button"
         onClick={() => {
           props.onNavClick("Skillkey");
         }}
       >
         Skills
-      </button>
-      <button
+      </div>
+      <div
+        className="nav-bar_button"
         onClick={() => {
           props.onNavClick("Educationkey");
         }}
       >
         Education
-      </button>
-      <button
+      </div>
+      <div
+        className="nav-bar_button"
         onClick={() => {
           props.onNavClick("Contactkey");
         }}
       >
         Contact
-      </button>
-      <button
+      </div>
+      <div
+        className="nav-bar_button"
         onClick={() => {
           props.onNavClick("Resumekey");
         }}
       >
         Resume
-      </button>
+      </div>
     </div>
   );
 };

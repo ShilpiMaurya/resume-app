@@ -15,38 +15,37 @@
   background-position: center;
 }
 .resume-download_heading {
-  font-size: 38px;
-  padding-top: 50px;
+  font-size: 48px;
+  padding-top: 20px;
+  color: var(--heading-color);
+}
+.resume-download_link {
   color: var(--heading-color);
 }
 
 /* responsive website */
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 550px) {
   .resume-download_heading {
-    font-size: 24px;
-    padding-top: 50px;
+    padding-top: 0px;
   }
 }
+
 @media only screen and (max-width: 540px) {
   .resume-download_logo {
     width: 100px;
     height: 100px;
   }
 }
-@media only screen and (max-width: 360px) {
-  .resume-download {
-    padding: 20px 0px;
-  }
-}
+
 @media only screen and (max-width: 360px) {
   .resume-download_logo {
     width: 80px;
     height: 80px;
   }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
   .resume-download_heading {
-    padding-top: 30px;
+    font-size: 38px;
   }
 }

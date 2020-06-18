@@ -60,7 +60,7 @@
   width: 370px;
   height: 230px;
   background-color: var(--pic-background-color);
-  background-image: url("../../images/display-pic.jpg");
+  background-image: url("../../images/display-image.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -201,5 +201,25 @@
 @media only screen and (max-width: 380px) {
   .info--content {
     font-size: 16px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .profile--heading1 {
+    font-size: 38px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .profile--heading2 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .home {
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .home {
+    padding: 10px;
   }
 }

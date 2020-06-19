@@ -35,8 +35,8 @@
     min-width: 70px;
     font-size: 15px;
   }
-}
-@media only screen and (max-width: 430px) {
+} 
+  @media only screen and (max-width: 430px) {
   .nav-bar_button {
     min-width: 60px;
     font-size: 15px;
@@ -47,4 +47,5 @@
     min-width: 40px;
     font-size: 14px;
   }
-}
+} 
+
